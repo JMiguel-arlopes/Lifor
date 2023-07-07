@@ -34,7 +34,7 @@
 .lista-about {
     padding: 1rem 0 0 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
