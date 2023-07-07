@@ -1,0 +1,33 @@
+.container.events {
+    /* background: linear-gradient(black 90%, rgb(210, 210, 210)); */
+}
+
+.carousel-lifor {
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.content-slide {
+    background-color: orangered;
+    padding-bottom: 40px;
+
+    /* padding: 1rem; */
+}
+
+.content-description-slide {
+    padding: .5rem;
+}
+
+.content-description-slide h2 {
+    font-size: 29px;
+    font-weight: 600;
+    color: black;
+}
+
+.content-description-slide p {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+}

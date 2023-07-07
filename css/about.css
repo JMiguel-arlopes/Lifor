@@ -1,0 +1,26 @@
+.about {}
+
+.container-logo {
+    text-align: center;
+}
+
+.about .about-img {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.title-about {
+    color: orangered;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    text-transform: uppercase;
+}
+
+.about-paragrath {
+    margin: 1rem 0;
+}
+
+.about-paragrath span {
+    color: orangered
+}

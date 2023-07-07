@@ -1,0 +1,25 @@
+.container.ambient {
+    background: linear-gradient(rgb(210, 210, 210), black);
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.cards .card {
+    background-color: white;
+    flex: 1 1 auto;
+    border-radius: 15px;
+    padding: 10px;
+    max-width: 45%;
+    box-shadow: 0 0 10px rgb(36, 36, 36);
+}
+
+.img-card {
+    border-radius: 10px;
+}

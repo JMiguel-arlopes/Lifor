@@ -1,0 +1,27 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.row-header {
+    background: linear-gradient(black, black);
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+
+.transition {
+    height: 100px;
+    background: linear-gradient(black, transparent);
+}
+
+.menu {
+    font-size: 38px;
+    color: whitesmoke;
+}

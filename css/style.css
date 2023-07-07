@@ -1,0 +1,106 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(banner.css);
+@import url(about.css);
+@import url(event.css);
+@import url(ambient.css);
+@import url(quotes.css);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
+
+:root {
+    --bg: rgb(8, 8, 8);
+    --amarelo-principal: rgb(255, 153, 0);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg);
+    color: #f5f5f5;
+    overflow-x: hidden;
+}
+
+main {
+    padding-top: 100px;
+}
+
+.secondary-paragraph {
+    font-size: 16px;
+    color: darkslategray;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+
+.container {
+    padding: 1.5rem 1rem;
+    background-color: black;
+}
+
+.container:nth-of-type(even) {
+    background-color: rgb(3, 3, 3);
+}
+
+.paragrath-principal {
+    color: rgb(100, 100, 100);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.1em;
+    /* margin-bottom: 2rem; */
+}
+
+.main-btn {
+    color: #fff;
+    background-color: var(--amarelo-principal);
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 700;
+    border-radius: 60px;
+    transform: translateY(150%);
+}
+
+.titulo-secundario {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #f5f5f5;
+    font-weight: 900;
+}
+
+.titulo-terciario {
+    color: orangered;
+    font-size: 18px;
+    font-weight: 700;
+    margin: .5rem 0;
+}
+
+.blink {
+    color: gold;
+    animation: blink .5s linear infinite;
+    font-size: 3em;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.material-symbols-outlined {
+    color: var(--amarelo-principal);
+    font-size: 45px;
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
