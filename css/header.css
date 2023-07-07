@@ -17,8 +17,8 @@
 }
 
 .transition {
-    height: 100px;
-    background: linear-gradient(black, transparent);
+    height: 80px;
+    background: linear-gradient(black, transparent 95%);
 }
 
 .menu {
