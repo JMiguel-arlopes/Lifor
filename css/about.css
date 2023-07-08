@@ -1,11 +1,13 @@
 .about {
     position: relative;
+    z-index: 1;
 }
 
 .blood {
     position: absolute;
     bottom: 2rem;
     right: 0;
+    z-index: -1;
     width: 60%;
     pointer-events: none;
 }

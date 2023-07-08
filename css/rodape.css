@@ -52,7 +52,7 @@
 .address>p {
     font-size: 16px;
     font-weight: 400;
-    color: gray;
+    color: rgb(163, 163, 163);
 }
 
 .address .map {

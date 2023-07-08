@@ -21,8 +21,8 @@
 .footprint {
     position: absolute;
     display: inline;
-    transform: rotate(20deg);
-    bottom: 3rem;
+    transform: rotate(15deg) translate(2rem, 50%);
+    bottom: 50%;
     left: 0;
     width: 100%;
 }
