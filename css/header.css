@@ -6,18 +6,21 @@
     width: 100%;
 }
 
+.container-logo img {
+    height: 60px;
+}
+
 .row-header {
     background: linear-gradient(black, black);
     padding: 0 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
-
+    height: 80px;
 }
 
 .transition {
-    height: 80px;
+    height: 40px;
     background: linear-gradient(black, transparent 95%);
 }
 

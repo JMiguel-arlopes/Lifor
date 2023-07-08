@@ -1,4 +1,14 @@
-.about {}
+.about {
+    position: relative;
+}
+
+.blood {
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    width: 60%;
+    pointer-events: none;
+}
 
 .container-logo {
     text-align: center;
@@ -9,18 +19,11 @@
     margin: 1rem 0;
 }
 
-.title-about {
-    color: orangered;
-    font-size: 26px;
-    font-weight: 700;
-    margin-bottom: 1.2rem;
-    text-transform: uppercase;
-}
-
 .about-paragrath {
     margin: 1rem 0;
 }
 
 .about-paragrath span {
-    color: orangered
+    color: var(--amarelo-principal);
+    text-shadow: -1px 1px orangered;
 }

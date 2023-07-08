@@ -1,6 +1,36 @@
 .container.ambient {
     background: linear-gradient(rgb(210, 210, 210), black);
     text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.fingerprint-green {
+    width: 70px;
+    display: inline;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+    z-index: -1;
+    opacity: .9;
+    /* transform: rotate(-14deg); */
+    /* animation: opacity 10s ease-in infinite; */
+}
+
+.footprint {
+    position: absolute;
+    display: inline;
+    transform: rotate(20deg);
+    bottom: 3rem;
+    left: 0;
+    width: 100%;
+}
+
+.footprint:nth-child(2) {
+    transform: rotate(0deg);
+    height: 100%;
+    bottom: 5rem;
 }
 
 .cards {
@@ -18,6 +48,11 @@
     padding: 10px;
     max-width: 45%;
     box-shadow: 0 0 10px rgb(36, 36, 36);
+    transition: .5s ease-out;
+}
+
+.cards .card:hover {
+    transform: scale(1.04);
 }
 
 .img-card {
