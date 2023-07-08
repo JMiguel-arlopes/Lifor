@@ -1,6 +1,6 @@
 const textDisplay = document.getElementById('text');
 
-const listaFrases = ['Lifor.', 'Forense.', 'Veterinária.'];
+const listaFrases = ['Veterinária Forense.', 'LIFOR.',];
 let i = 0; // numeração do item completo de "frases".
 let j = 0; // numeração do caracter do item.
 let fraseMovimentada = [];
