@@ -17,6 +17,7 @@
         crossorigin="anonymous"></script>
     <script defer src="https://kit.fontawesome.com/bd92ca8629.js" crossorigin="anonymous"></script>
     <script defer src="js/loop.js"></script>
+    <script defer src="js/scroll.js"></script>
 </head>
 
 <body>
@@ -168,31 +169,31 @@
         </section>
 
         <section class="container ambient">
-            <img src="pegadas.png" alt="" class="footprint">
-            <h2 class="main-title">Nossa Organização possui:</h2>
+            <!-- <img src="pegadas.png" alt="" class="footprint"> -->
+            <h2 class="main-title" data-anime="bottom">Nossa Organização possui:</h2>
             <div class="cards">
-                <div class="card">
+                <div class="card" data-anime="left">
                     <img src="https://i.pinimg.com/236x/83/0e/2e/830e2e0b06d76d3063bd2ff11c0eee82.jpg" alt=""
                         class="img-card">
                     <h3 class="titulo-terciario">Sala de Treinamento</h3>
                     <p class="paragrath-principal">Treinamento e Palestras incríveis para galera
                     </p>
                 </div>
-                <div class="card">
+                <div class="card" data-anime="right">
                     <img src="https://i.pinimg.com/236x/83/0e/2e/830e2e0b06d76d3063bd2ff11c0eee82.jpg" alt=""
                         class="img-card">
                     <h3 class="titulo-terciario">Mesas compartilhadas</h3>
                     <p class="paragrath-principal">Espaço de Trabalho compartilhado
                     </p>
                 </div>
-                <div class="card">
+                <div class="card" data-anime="left">
                     <img src="https://i.pinimg.com/236x/83/0e/2e/830e2e0b06d76d3063bd2ff11c0eee82.jpg" alt=""
                         class="img-card">
                     <h3 class="titulo-terciario">Área de Descanso</h3>
                     <p class="paragrath-principal">Ambiente descolado e aconchegante
                     </p>
                 </div>
-                <div class="card">
+                <div class="card" data-anime="right">
                     <img src="https://i.pinimg.com/236x/83/0e/2e/830e2e0b06d76d3063bd2ff11c0eee82.jpg" alt=""
                         class="img-card">
                     <h3 class="titulo-terciario">Sala de Reunião</h3>
@@ -204,9 +205,9 @@
         </section>
 
         <section class="container quotes">
-            <h2 class="main-title">Citações:</h2>
+            <h2 class="main-title" data-anime="left">Citações:</h2>
 
-            <div class="quote">
+            <div class="quote" data-anime="bottom">
                 <div class="row-user">
                     <div class="user">
                         <img src="https://i.pinimg.com/236x/27/a9/3b/27a93b38df332a60b4d5a9e17e60c58b.jpg" alt=""
@@ -235,7 +236,7 @@
                 </p>
             </div>
 
-            <div class="quote">
+            <div class="quote" data-anime="right">
                 <div class="row-user">
                     <div class="user">
                         <img src="https://i.pinimg.com/236x/27/a9/3b/27a93b38df332a60b4d5a9e17e60c58b.jpg" alt=""
@@ -264,7 +265,7 @@
                 </p>
             </div>
 
-            <div class="quote">
+            <div class="quote" data-anime="left">
                 <div class="row-user">
                     <div class="user">
                         <img src="https://i.pinimg.com/236x/27/a9/3b/27a93b38df332a60b4d5a9e17e60c58b.jpg" alt=""
@@ -297,30 +298,28 @@
     </main>
 
     <footer class="rodape">
-        <img src="logo-wt.png" alt="">
-        <div class="contact">
-            <h2 class="title-footer">Contatos:</h2>
-            <a href="https://www.instagram.com/lifor.ufrrj/" class="link">
-                <i class="fa-brands fa-instagram icon-footer"></i>
-                Visite nosso Instagram
-            </a>
+        <div class="content-footer">
+            <img src="logo-wt.png" alt="">
+            <div class="contact">
+                <h2 class="title-footer">Contatos:</h2>
+                <a href="https://www.instagram.com/lifor.ufrrj/" class="link">
+                    <i class="fa-brands fa-instagram icon-footer"></i>
+                    Visite nosso Instagram
+                </a>
 
-            <a href="mailto: SeuEmail@Dominio.com" class="link">
-                <i class="fa-regular fa-envelope icon-footer"></i>
-                Email: SeuEmail@Dominio.com
-            </a>
-        </div>
+                <a href="mailto: lifor.ufrrj@ufrrj.com" class="link">
+                    <i class="fa-solid fa-envelope icon-footer"></i>
+                    Email: lifor.ufrrj@ufrrj.com
+                </a>
+            </div>
 
-        <div class="address">
-            <h2 class="title-footer">Endereço:</h2>
-            <p>Rua batatinha, nº 123, Cidade de Pallet, 12345-123, Seropédica, RJ</p>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.89615173977!2d-43.6850841!3d-22.7692349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9955d8251e415f%3A0x613581ba0a2b68bd!2sUniversidade%20Federal%20Rural%20do%20Rio%20de%20Janeiro%20(UFRRJ)!5e0!3m2!1spt-BR!2sbr!4v1688827571340!5m2!1spt-BR!2sbr"
-                class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="address">
+                <h2 class="title-footer">Endereço:</h2>
+                <p>Rua batatinha, nº 123, Cidade, 12345-123, Seropédica, RJ</p>
+            </div>
         </div>
 
         <div class="credits">
-
             <h3>Created by <span>João Miguel A. Lopes</span></h3>
             <h2>© 2023 LIFOR - UFRRJ | all rights reserved</h2>
         </div>
