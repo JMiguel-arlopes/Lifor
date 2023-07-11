@@ -10,6 +10,7 @@
     z-index: -1;
     width: 60%;
     pointer-events: none;
+    opacity: .6;
 }
 
 .container-logo {

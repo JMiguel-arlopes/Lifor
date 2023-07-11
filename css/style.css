@@ -50,7 +50,6 @@ main {
     margin-bottom: 1.2rem;
     text-transform: uppercase;
     text-shadow: -1px 1.5px orangered;
-    position: relative;
 }
 
 .titulo-secundario {
@@ -125,22 +124,32 @@ main {
     box-shadow: 0 0 5px var(--amarelo-principal);
 }
 
+[data-anime] {
+    opacity: 0;
+    transition: .3s;
+}
 
+[data-anime="bottom"] {
+    transform: translate3d(0, 5rem, 0);
+}
+
+[data-anime="left"] {
+    transform: translate3d(-5rem, 0, 0);
+}
+
+[data-anime="right"] {
+    transform: translate3d(5rem, 0, 0);
+}
+
+[data-anime].animated {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
 
 .blink {
     color: darkgray;
     animation: blink .5s linear infinite;
     font-size: 3em;
-}
-
-@keyframes blink {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
 }
 
 .material-symbols-outlined {
@@ -151,4 +160,14 @@ main {
         'wght' 400,
         'GRAD' 0,
         'opsz' 48
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
