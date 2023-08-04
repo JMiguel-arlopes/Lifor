@@ -1,5 +1,5 @@
 .container.ambient {
-    background: linear-gradient(rgb(210, 210, 210), black);
+    background: linear-gradient(rgb(100, 100, 100), black);
     text-align: center;
     z-index: 1;
     overflow-x: hidden;
@@ -19,7 +19,7 @@
     border-radius: 15px;
     padding: 10px;
     max-width: 45%;
-    box-shadow: 0 0 10px rgb(36, 36, 36);
+    box-shadow: 0 0 10px rgb(30, 30, 30);
     transition: .5s ease-out;
 }
 

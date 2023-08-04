@@ -5,6 +5,7 @@
 .carousel-lifor {
     border-radius: 20px;
     overflow: hidden;
+    /* box-shadow: 0 0 10px #1bf6f7; */
 }
 
 .content-slide {

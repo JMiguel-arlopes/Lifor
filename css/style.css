@@ -93,23 +93,7 @@ main {
     background-color: rgb(3, 3, 3);
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: .5rem;
-}
 
-.row>h2 {
-    max-width: 80%;
-    display: inline-block;
-    margin: 0;
-}
-
-.row>img {
-    max-width: 20%;
-}
 
 
 .main-btn {

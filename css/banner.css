@@ -1,7 +1,16 @@
 .container.banner {
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.75) 80%, rgb(3, 3, 3)),
-        url(https://i.pinimg.com/236x/1b/35/bd/1b35bd3514ebfb706714cfd7d6fca345.jpg);
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.75) 80%, rgb(3, 3, 3)),
+        /* url(https://i.pinimg.com/236x/1b/35/bd/1b35bd3514ebfb706714cfd7d6fca345.jpg), */
+        /* url(https://wallpapercave.com/dwp1x/wp2709928.jpg); */
+        /* url(https://i.pinimg.com/236x/19/af/3e/19af3ecb51789cc37bdd543b83e3c9cd.jpg); */
+        url(https://images.pexels.com/photos/2832382/pexels-photo-2832382.jpeg);
+    /* url(https://i.pinimg.com/236x/5e/3d/4b/5e3d4bdf48ca4ab05471c6cc64f7d10b.jpg); */
+    /* url(https://i.pinimg.com/564x/80/83/11/80831193869cd6fbea61e36f6e51481d.jpg); */
+
+    background-position: center;
+    background-size: cover;
     position: relative;
     z-index: 1;
 }
@@ -40,7 +49,7 @@
 
 .header-paragrath {
     color: rgb(170, 170, 170);
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 1.5em;
     margin-bottom: 2rem;
